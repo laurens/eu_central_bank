@@ -2,7 +2,7 @@
 # encoding: utf-8
 Gem::Specification.new do |s|
   s.name         = "eu_central_bank"
-  s.version      = "0.3.5"
+  s.version      = "0.3.6"
   s.platform     = Gem::Platform::RUBY
   s.authors      = ["Wong Liang Zan", "Shane Emmons", "Thorsten Böttger", "Jonathan Eisenstein"]
   s.email        = ["zan@liangzan.net"]
@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rr"
   s.add_development_dependency "shoulda"
 
-  s.files         = Dir.glob("lib/**/*") + %w(CHANGELOG.rdoc LICENSE README.rdoc)
+  s.files         = Dir.glob("lib/**/*") + %w(CHANGELOG.md LICENSE README.md)
   s.require_path = "lib"
 end
